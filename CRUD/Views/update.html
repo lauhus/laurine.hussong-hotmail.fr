@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title> Mon CRUD </title>
+    <link rel="stylesheet" href="../cssheader.css">
+</head>
+<body>
+    <header>
+        <div class="box0"><a href="../index.html"> <h1> Mon CRUD</h1> </a> </div>
+        <div class="box1"> <a href="create.html"> Create</a></div>
+        <div class="box2"> <a href="read.html"> Read </a></div>
+        <div class="box3"> <a href="update.html">Update </a></div>
+        <div class="box4"> <a href="delete.html">Delete </a></div>
+    </header>
+
+    <h2>Modifier vos informations: </h2>
+    <form action="../Controllers/update_ctrl.php" method="POST">
+        <label for"pseudo"> Pseudo : </label>
+        <input type="text" id="pseudo" name="pseudo">
+        <br>
+        <br>
+        <button type="submit"> Envoyer formulaire </button>
+        <br>
+    </form>
+</body>
